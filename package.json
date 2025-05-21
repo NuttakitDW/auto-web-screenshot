@@ -1,0 +1,24 @@
+{
+  "name": "staygold-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NuttakitDW/staygold-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NuttakitDW/staygold-app/issues"
+  },
+  "homepage": "https://github.com/NuttakitDW/staygold-app#readme",
+  "devDependencies": {
+    "fast-xml-parser": "^5.2.3",
+    "playwright": "^1.52.0"
+  }
+}
