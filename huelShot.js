@@ -5,7 +5,7 @@ import { chromium } from "playwright";
 import { XMLParser } from "fast-xml-parser";
 
 /* ---------- tweakables ---------- */
-const ROOT = "https://huel.com";
+const ROOT = process.env.ROOT_URL || "https://huel.com";
 const TODAY = new Date().toISOString().slice(0, 10);
 const OUT = `screens/${TODAY}`;
 const DONE_FILE = "done.txt";          // one URL per line
